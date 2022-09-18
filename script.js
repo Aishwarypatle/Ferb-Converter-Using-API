@@ -18,7 +18,7 @@ let clickEvent = () => {
   fetch(getTranslation(inputTxt.value))
     .then(response => response.json())
     .then(json => Output.innerText = json.contents.translated)
-    .catch(errorHadling);
+    .catch(errorHandling);
 
 }
-btnTranslate.addEventListener("click", clickEvent);
+translateBtn.addEventListener("click", clickEvent);

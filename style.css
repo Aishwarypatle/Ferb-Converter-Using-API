@@ -7,7 +7,7 @@ body{
 }
 
 :root{
-  --primary-color:#8ef6e4;
+  --primary-color:#ffb5b5;
 }
 
 
@@ -39,6 +39,8 @@ body{
   display: block;
   cursor:pointer;
   font-weight: bold;  
+  height: 3rem;
+  width:10rem;
 }
 
 .output-txt{
@@ -47,8 +49,8 @@ body{
   text-align: center;
 }
 textarea{
-    height: 10vh;
-    width: 80%;
+    height: 5rem;
+    width: 90%;
     display: block;
     margin: 1rem;
     padding: 1rem;
@@ -56,3 +58,33 @@ textarea{
 }
 
 
+.container{
+  max-width: 600px;
+  margin: auto;
+}
+
+.output{
+  border: 1px solid black;
+  height: 5rem;
+  width: 90%;
+  display:block;
+  margin:1rem;
+  padding: 1rem;
+  border-radius:1rem;
+  background-color:white ;
+}
+
+.footer{
+  background-color: var(--primary-color);
+  padding:.5rem;
+  text-align: center;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+img{
+  max-height: 10rem;
+  padding: 1rem 1rem;
+  border-radius: 1.5rem;
+  background-color: grey;
+}
