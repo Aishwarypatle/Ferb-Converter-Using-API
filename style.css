@@ -30,3 +30,29 @@ body{
   font-weight: 600;
 }
 
+.button{
+  background-color: var(--primary-color);
+  border: none;
+  padding: .5rem 1 rem;
+  border-radius: .5rem;
+  margin: auto;
+  display: block;
+  cursor:pointer;
+  font-weight: bold;  
+}
+
+.output-txt{
+  padding: .5rem;
+  color: white;
+  text-align: center;
+}
+textarea{
+    height: 10vh;
+    width: 80%;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+
