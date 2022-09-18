@@ -10,3 +10,23 @@ body{
   --primary-color:#8ef6e4;
 }
 
+
+.navigation{
+  background-color: var(--primary-color);
+  min-height: 10vh;
+  color:black;
+  align-items: center;
+  margin: auto;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius:1rem;
+  padding:1rem;
+}
+.navigation .nav-brand{
+  margin: auto;
+  text-align: center;
+  font-size: 2rem;
+  max-width: fit-content;
+  padding: .5rem;
+  font-weight: 600;
+}
+
