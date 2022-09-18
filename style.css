@@ -1,4 +1,12 @@
-html, body {
-  height: 100%;
-  width: 100%;
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap");
+
+body{
+  font-family: 'Titillium Web', sans-serif;
+  margin:0px;
+  background-color: black;
 }
+
+:root{
+  --primary-color:#8ef6e4;
+}
+
